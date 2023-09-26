@@ -1,9 +1,10 @@
 import ReactDOM from 'react-dom/client'
 import React from 'react'
 
-import './styles/main.sass'
 import { RouterManager } from './infrastructure/routes'
 import { StoreManager } from './infrastructure/store'
+
+import './styles/main.scss'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
